@@ -1,6 +1,5 @@
 import React from "react";
-import { TextInput, View } from "react-native";
-import { Text, StyleSheet } from "react-native";
+import { TextInput, View, Text, StyleSheet } from "react-native";
 
 interface Props {
   defaultValue: string;
