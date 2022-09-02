@@ -35,7 +35,7 @@ const Divisa = () => {
         }
         setConvertir(number);
     };
-    const tipoCambio = () => {
+    const Ejecutar = () => {
         if (moneda1 === 'USD' && moneda2 === 'NIO' && cambio === 0.02752) {
             const result = convertir * 35.70 / cambio;
             setResult(result)
@@ -115,7 +115,7 @@ const Divisa = () => {
                 <Calcular
                     color="#00FBFF"
                     text="Convertir"
-                    onPress={tipoCambio}
+                    onPress={Ejecutar}
                 />
                 <Textos text="El resultado de la conversion es:"   type={"normal"} />
                 <Text style={styles.result}>{result.toString()}</Text>
