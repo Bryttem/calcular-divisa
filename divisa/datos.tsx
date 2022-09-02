@@ -9,7 +9,7 @@ interface Props {
   onChangeText: (text: string) => void;
 }
 
-const Inputs = ({
+const caja = ({
   defaultValue,
   errorMessage = "Error",
   handleError = false,
@@ -27,7 +27,7 @@ const Inputs = ({
   );
 };
 
-export default Inputs;
+export default caja;
 
 const styles = StyleSheet.create({
   label: {
