@@ -26,7 +26,7 @@ export default valores
 
 const styles = StyleSheet.create({
     titulo: {
-        fontSize: 200,
+        fontSize: 50,
         position: 'absolute',
         top: 30,
         left: 20,
@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
         color: 'blue'
     },
     normal: {
-        color: 'Skyblue',
+        color: 'black',
         padding: 5
     }
 })
